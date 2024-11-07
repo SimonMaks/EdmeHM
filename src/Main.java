@@ -27,7 +27,8 @@ public class Main {
             number_2 = Integer.parseInt(parts[2]);
 
         } catch (NumberFormatException e) {
-            throw new NumberFormatException("Is not a number: " + parts[2]);        }
+            throw new NumberFormatException("Is not a number: " + parts[2]);
+        }
 
         if (number_2 > 10 || number_2 < 1) {
             throw new NumberFormatException("Value must be between 1 and 10");
